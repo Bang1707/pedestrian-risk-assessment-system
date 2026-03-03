@@ -25,23 +25,6 @@ Video Input
 → Visualization & Analytics  
 
 ## 📂 Project Structure
-pedestrian-risk-assessment/
-│
-├── data/
-├── models/
-├── src/
-│ ├── detection/
-│ ├── tracking/
-│ ├── motion/
-│ ├── risk/
-│ ├── visualization/
-│ └── utils/
-│
-├── analytics/
-├── experiments/
-├── config/
-├── main.py
-└── requirements.txt
 
 
 ## 🚀 Goals
