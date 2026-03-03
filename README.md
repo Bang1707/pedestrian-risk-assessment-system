@@ -1,2 +1,27 @@
-# pedastrian-risk-assessment-system
-Vision-based pedestrian collision risk estimation system using object detection, custom Kalman tracking, and TTC-based risk modeling.
+# Pedestrian Risk Assessment System (PRAS)
+
+A vision-based pedestrian collision risk estimation system built using object detection, custom tracking, and time-to-collision (TTC) modeling.
+
+## 📌 Project Overview
+
+This project aims to estimate pedestrian collision risk from video input using:
+
+- Pretrained object detection (YOLO)
+- Custom-built Kalman Filter tracker
+- Motion estimation
+- Time-to-Collision (TTC) calculation
+- Heuristic-based risk scoring
+
+The main contribution of the project lies in the tracking and risk modeling layers rather than object detection.
+
+## 🧠 System Pipeline
+
+Video Input  
+→ Object Detection  
+→ Multi-Object Tracking  
+→ Motion Estimation  
+→ TTC Calculation  
+→ Risk Scoring  
+→ Visualization & Analytics  
+
+## 📂 Project Structure
